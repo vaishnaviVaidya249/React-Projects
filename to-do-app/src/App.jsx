@@ -33,7 +33,7 @@ function App() {
         <input className=" border border-black p-2 rounded-md outline-none w-[300px]" type="text" value={input} onChange={(e)=>setinput(e.target.value)}
         placeholder="New Todo"/>
 
-        <button className="border border-none p-2 rounded-md bg-green-400 hover:bg-green-600,border-black cursor-pointer " onClick={handleSubmit}>Add</button>
+        <button className="border border-none p-2 rounded-md bg-green-300 hover:bg-green-600 cursor-pointer " onClick={handleSubmit}>Add</button>
         </div>
         
         <ul>
